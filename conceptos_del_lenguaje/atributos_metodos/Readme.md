@@ -22,6 +22,7 @@
 
 ### Atributos de instancia de la clase   
 - Declarados como `@atributo_de_instancia_de_la_clase` (nótese la colisión de notación con los atributos de instancia). 
+- Si se escribe `@atrubuto` dentro de un método de clase, este será un atributo de instancia de la clase, y se distinguirán aunque se llame igual que un atributo de instancia. 
 - No sé puede acceder desde ámbito de instancia. 
 - No se comparten en herencia. 
 
